@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="stylish_text">
+        Dont have an account?<b>Sign up.</b>
+    </string>
+    <string name="stylish_text2">
+        Already Signed In ? <b>Login</b>
+    </string>
+    <string name="stylish_text3">
+        Forgotten your login details ?<b>Get help signing in.</b>
+    </string>
+    <string name="stylish_text4">
+        <b>Error. </b>Please Enter the correct details .
+    </string>
+    <string name="status">
+        Please fill the following details to check your <b>Registration Status </b>
+    </string>
+</resources>

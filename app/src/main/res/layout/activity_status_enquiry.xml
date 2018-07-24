@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_animation"
+    tools:context=".StatusEnquiry">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/passportnum"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:background="#11000000"
+        android:hint="Enter Your Passport No"
+        android:drawableLeft="@drawable/ic_passport"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/onlineRegNo"
+        android:drawableLeft="@drawable/ic_registration"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="#11000000"
+        android:hint="Enter Your Registration No"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/FileNo"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_file"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="#11000000"
+        android:hint="Enter Your File No"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/fetchInfo"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="#000" />
+
+</LinearLayout>
