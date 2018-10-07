@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (user != null){
             finish();
-            startActivity(new Intent(MainActivity.this,SecondActivity.class));
+            startActivity(new Intent(MainActivity.this,MainActivity1.class));
         }
 
         Login.setOnClickListener(new View.OnClickListener() {
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (emailflag){
             finish();
-            startActivity(new Intent(MainActivity.this, SecondActivity.class));
+            startActivity(new Intent(MainActivity.this, MainActivity1.class));
         }else{
             Toast.makeText(this,"Verify Your Email",Toast.LENGTH_SHORT).show();
             firebaseAuth.signOut();

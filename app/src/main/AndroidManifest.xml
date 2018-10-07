@@ -18,11 +18,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".PasswordActivity" />
         <activity android:name=".StatusEnquiry" />
         <activity android:name=".StatusQuery"></activity>
+        <activity android:name=".subActivities.OciRegistration" />
+        <activity android:name=".subActivities.complaints" />
+        <activity android:name=".subActivities.OciEnquiry" />
+        <activity android:name=".subActivities.Aboutus" />
+        <activity android:name=".subActivities.Faq" />
+        <activity android:name=".subActivities.Oci" />
+        <activity android:name=".subActivities.ConnectWithUs" />
+        <activity android:name=".subActivities.Privacy" />
+        <activity android:name=".subActivities.TermsOfUse" />
+
+        <activity android:name=".MainActivity1"/>
+
+
     </application>
 
 </manifest>
