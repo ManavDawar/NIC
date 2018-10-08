@@ -32,7 +32,7 @@
         app:layout_constraintStart_toEndOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/main_back_image"
-        app:srcCompat="@mipmap/ic_aboutus" />
+        app:srcCompat="@drawable/ic_about1" />
 
     <ImageView
         android:id="@+id/imageViewoci"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageview_aboutus"
         app:layout_constraintTop_toBottomOf="@+id/main_back_image"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:drawable/ic_menu_help" />
+        app:srcCompat="@drawable/ic_vision" />
 
     <ImageView
         android:id="@+id/imageViewConnectWithUs"
@@ -63,7 +63,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageViewociEnquiry"
         app:layout_constraintTop_toBottomOf="@+id/main_back_image"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:drawable/ic_menu_compass" />
+        app:srcCompat="@drawable/ic_connect" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
@@ -105,7 +105,7 @@
         app:layout_constraintStart_toEndOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/guideline4"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        app:srcCompat="@drawable/ic_registeration" />
 
     <ImageView
         android:id="@+id/imageViewociEnquiry"
@@ -122,7 +122,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageViewociRegister"
         app:layout_constraintTop_toBottomOf="@+id/guideline4"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@drawable/ic_enquiry" />
 
     <ImageView
         android:id="@+id/imageViewcomplaint"
@@ -138,7 +138,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toEndOf="@+id/imageViewociEnquiry"
         app:layout_constraintTop_toBottomOf="@+id/guideline4"
-        app:srcCompat="@android:drawable/ic_delete" />
+        app:srcCompat="@drawable/ic_complaint" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline5"
@@ -155,7 +155,7 @@
         android:background="@drawable/icon_background"
         app:layout_constraintStart_toEndOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/guideline5"
-        app:srcCompat="@android:drawable/ic_lock_lock" />
+        app:srcCompat="@drawable/ic_faq" />
 
     <ImageView
         android:id="@+id/imageViewshare"
@@ -169,7 +169,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageViewFAQ"
         app:layout_constraintTop_toBottomOf="@+id/guideline5"
-        app:srcCompat="@mipmap/ic_sharelink" />
+        app:srcCompat="@drawable/ic_share" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -183,7 +183,7 @@
         app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toEndOf="@+id/imageViewshare"
         app:layout_constraintTop_toBottomOf="@+id/guideline5"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@drawable/ic_helpline" />
 
 
 </android.support.constraint.ConstraintLayout>
